@@ -52,7 +52,7 @@ vicious.register(weather, vicious.widgets.weather, " Weather: ${city} | Temp: ${
 
 --
 -- Possible network devices
-eths = { 'eth0', 'wlp3s0' }
+eths = { 'eno1' , 'eth0', 'wlp3s0' }
 netwidget = wibox.widget.textbox()
 vicious.register( netwidget, vicious.widgets.net,
 function(widget,args)
